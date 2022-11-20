@@ -1,0 +1,10 @@
+{
+  "domain": "elpris_level",
+  "name": "Component to set level for energy price",
+  "documentation": "https://github.com/kayjei/elpris_level",
+  "dependencies": [],
+  "codeowners": ["kayjei"],
+  "requirements": [],
+  "iot_class": "cloud_polling",
+  "version": 0.1
+}
