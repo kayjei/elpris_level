@@ -112,4 +112,7 @@ class levelCalculation:
                 list_obj.append(float(l.strip()))
 
         _LOGGER.debug(list_obj)
+        if len(list_obj) == 0:
+            return None
+            
         return list_obj
