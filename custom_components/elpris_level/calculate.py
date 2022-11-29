@@ -108,7 +108,8 @@ class levelCalculation:
         list_obj = []
         _LOGGER.debug(data)
         for l in data.split(','):
-            list_obj.append(float(l.strip()))
+            if l is not None:
+                list_obj.append(float(l.strip()))
 
         _LOGGER.debug(list_obj)
         return list_obj
